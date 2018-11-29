@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class FindAndReplaceByDecadence {
+public class FindAndReplaceNotToday {
     public static List<String> findAndReplacePattern(String[] words, String pattern) {
         int length = words.length;
         List<String> list = new ArrayList<>(length);
