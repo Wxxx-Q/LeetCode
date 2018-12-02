@@ -1,4 +1,8 @@
-public class Rotated_Digits_Not_Today {
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
+
+public class NotToday {
     public int rotatedDigits(int N) {
         HashMap<Integer,Integer> map = new HashMap<>(7);
         map.put(2,5);
@@ -6,7 +10,6 @@ public class Rotated_Digits_Not_Today {
         map.put(6,9);
         map.put(9,6);
         Set<Integer> limitSet = new HashSet<>(8);
-
         limitSet.add(0);
         limitSet.add(1);
         limitSet.add(2);
