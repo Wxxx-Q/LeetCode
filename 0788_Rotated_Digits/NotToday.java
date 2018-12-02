@@ -1,7 +1,6 @@
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
-
 public class NotToday {
     public int rotatedDigits(int N) {
         HashMap<Integer,Integer> map = new HashMap<>(7);
@@ -54,7 +53,5 @@ public class NotToday {
             count++;
         }
         return !(result == num);
-
-
     }
 }
